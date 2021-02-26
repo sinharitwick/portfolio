@@ -1,0 +1,90 @@
+body{
+    background: url(https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?cs=srgb&dl=pexels-pixabay-509922.jpg&fm=jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    left: 60px ;
+    top: 20px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+.mid{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+}
+.navigationbar{
+    display: inline-block;
+}
+.navigationbar li{
+    display: inline-block;
+}
+.navigationbar li a.active{
+    color:darkcyan;
+}
+.navigationbar li a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.navigationbar li a:hover{
+    color: darkcyan;
+}
+.navigationbar li.searchbox{
+    padding-left: 200px;
+}
+.nav-input{
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 28px;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+}
+.right{
+    display: inline-block;
+    border: 2px solid blue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#person{
+    width:400px;
+    clip-path: circle();
+}
+#nameme{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    padding: 20px;
+}
+#abt{
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+footer a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+footer{
+    margin-left: 30%;
+    background-color: transparent;
+    overflow: hidden;
+}
+footer a:hover{
+    color: darkcyan;
+}
